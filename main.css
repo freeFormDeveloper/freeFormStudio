@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url("images/background.jpg");
+    color: white;
+    width: 100%;
+}
+
+body a {
+    color: white;
+    background: purple;
+    box-shadow: 0.2px 0px white;
+    border-bottom: 3px black solid;
+    padding: 5px;
+    
+}
+
+body a:active {
+    color: purple;
+    background-color: #efe;
+    border-bottom: 2px black solid;
+}
+
+body a:hover {
+    color: white;
+    background-color: gray;
+    border-bottom: 2px gray solid;
+}
+
+#menu {
+    min-height: 45em;
+    padding-top: 20px;
+
+}
+
+#menu ul {
+    padding-top: 30px;
+}
+
+
+#menu li {
+    list-style: none;
+    display: block;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#menu p {
+    padding-top: 30px;
+}
+
+#menu .logo {
+    text-decoration: none;
+    padding-top: 30px;
+    margin-top: 10px; 
+    background: none;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+}
+
+#menu .contact {
+    padding-left: 15px;
+}
+
+#content {
+    min-height: 42em;
+    border-left: 2px gray double;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+#content h1,h2,h3,h4,h5 {
+    color: purple;
+}
+
+.port {
+    background: gray;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    border-top: 3px gray double;
+    padding-bottom: 7px;
+    padding-top: 4px; 
+}
+
+#footer li {
+    list-style: none;
+    display: block;
+    margin-top:  -0.5em;
+    float: left;
+    padding: 10px;
+    padding-top: 25px;
+    margin-left: 3px;
+}
+#footer li a {
+    text-decoration: none;
+}
